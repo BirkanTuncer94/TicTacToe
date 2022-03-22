@@ -1,0 +1,43 @@
+
+#game-table{
+    height: 650px;
+    width: 650px;
+    background-color: wheat;
+    border: 3px solid black;
+    margin: auto;
+    margin-top: 70px;
+    position: relative;
+}
+.square{
+    height: 200px;
+    width: 200px;
+    float: left;
+    border: 1px solid black;
+    margin: 7px;
+    background-color: rgb(159, 201, 159);
+    text-align: center;
+    position: relative
+}
+.symbol{
+    margin-top: 30%;
+    font-size: 50px;
+    opacity: 0;
+    
+}
+.square:hover{
+  background-color: yellowgreen;
+  cursor: pointer;
+}
+#game-buttons{
+    
+    text-align: center;
+    margin-top: 20px;
+}
+#again-button{
+    height: 50px;
+    width: 100px;
+    background-color: green;
+    border: 2px solid black;
+    text-align: center;    
+}
+
